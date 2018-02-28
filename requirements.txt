@@ -14,3 +14,4 @@ six==1.10.0
 tensorflow==1.2.1
 # unity-lens-photos==1.0
 Werkzeug==0.12.2
+gunicorn==19.6.0
