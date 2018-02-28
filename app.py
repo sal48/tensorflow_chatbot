@@ -12,7 +12,8 @@ def reply():
 
 @app.route("/")
 def index(): 
-    return render_template("index.html")
+    return '<h1>Deployed to Heroku!</h1>'
+        #render_template("index.html")
 #############
 
 '''
