@@ -12,8 +12,7 @@ def reply():
 
 @app.route("/")
 def index(): 
-    return '<h1>Deployed to Heroku!</h1>'
-        #render_template("index.html")
+    return render_template("index.html")
 #############
 
 '''
@@ -31,5 +30,5 @@ sess, model, enc_vocab, rev_dec_vocab = execute.init_session(sess, conf='seq2seq
 #_________________________________________________________________
 
 # start app
-# if (__name__ == "__main__"):
-#    app.run(port = 5000)
+if (__name__ == "__main__"):
+   app.run(port = 8000)
